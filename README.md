@@ -47,3 +47,6 @@ pull request. For slightly more information, see
 [unleashed]: https://www.offensive-security.com/metasploit-unleashed/ "Metasploit Unleashed"
 
 
+Useful Logging
+--
+LOGGING.md informs you how to turn on logging while in msfconsole.
