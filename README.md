@@ -49,4 +49,4 @@ pull request. For slightly more information, see
 
 Useful Logging
 --
-LOGGING.md informs you how to turn on logging while in msfconsole.
+LOGGING.md explains that logging is automatically turn on once you run msfconsole.
