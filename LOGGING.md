@@ -1,3 +1,9 @@
+NOTE: Logging is automatically turned on. When you start msfconsole you should see that you are logging to a file. This file is unique
+since we are using the same format (i.e. /root/blueStarCmdLogging_[epoch time]).
+
+
+If this was not turned on automatically for us, then you could do the following: 
+
 To initiate logging in metasploit, do the following:
 
 	0	spool /root/nameOfYourOwnageFile.txt

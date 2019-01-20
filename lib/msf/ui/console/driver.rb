@@ -12,6 +12,7 @@ require 'erb'
 require 'rexml/document'
 require 'fileutils'
 require 'digest/md5'
+require 'time'
 
 module Msf
 module Ui
@@ -206,6 +207,11 @@ class Driver < Msf::Ui::Driver
         run_single(c)
       }
     end
+
+    # turn on logging so that we capture every command and the output
+    epoch = (Time.new).to_i
+    turnOnLogging = "spool /root/blueStarCmdLogging_" + epoch.to_s
+    run_single(turnOnLogging)
   end
 
   #
